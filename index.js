@@ -82,21 +82,21 @@ function SYHHIM(cbk) {
 
     this.tim.on(this.IM.EVENT.NET_STATE_CHANGE, this.handler)
 
-    // this.tim.on(this.IM.EVENT.MESSAGE_REVOKED, this.handler(this.IM.EVENT.MESSAGE_REVOKED, event));
+    this.tim.on(this.IM.EVENT.MESSAGE_REVOKED, his.handler)
 
-    // this.tim.on(this.IM.EVENT.CONVERSATION_LIST_UPDATED, this.handler(this.IM.EVENT.CONVERSATION_LIST_UPDATED, event));
+    this.tim.on(this.IM.EVENT.CONVERSATION_LIST_UPDATED, his.handler)
 
-    // this.tim.on(this.IM.EVENT.GROUP_LIST_UPDATED, this.handler(this.IM.EVENT.GROUP_LIST_UPDATED, event));
+    this.tim.on(this.IM.EVENT.GROUP_LIST_UPDATED, his.handler)
 
-    // this.tim.on(this.IM.EVENT.PROFILE_UPDATED, this.handler(this.IM.EVENT.PROFILE_UPDATED, event));
+    this.tim.on(this.IM.EVENT.PROFILE_UPDATED, his.handler)
 
-    // this.tim.on(this.IM.EVENT.BLACKLIST_UPDATED, this.handler(this.IM.EVENT.BLACKLIST_UPDATED, event));
+    this.tim.on(this.IM.EVENT.BLACKLIST_UPDATED, his.handler)
 
-    // this.tim.on(this.IM.EVENT.ERROR, this.handler(this.IM.EVENT.ERROR, event));
+    this.tim.on(this.IM.EVENT.ERROR, his.handler)
 
-    // this.tim.on(this.IM.EVENT.SDK_NOT_READY, this.handler(this.IM.EVENT.SDK_NOT_READY, event));
+    this.tim.on(this.IM.EVENT.SDK_NOT_READY, his.handler)
 
-    // this.tim.on(this.IM.EVENT.KICKED_OUT, this.handler(this.IM.EVENT.KICKED_OUT, event));
+    this.tim.on(this.IM.EVENT.KICKED_OUT, his.handler)
   }
 }
 
