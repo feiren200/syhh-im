@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.com/feiren200/syhh-im.svg?branch=master)](https://travis-ci.com/feiren200/syhh-im)
+[![NPM version](http://img.shields.io/npm/v/syhh-im.svg?style=flat)](https://npmjs.org/package/syhh-im)
+[![NPM downloads](http://img.shields.io/npm/dm/syhh-im.svg?style=flat)](https://npmcharts.com/compare/syhh-im?minimal=true)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+
 ## IM-CLI
 
 # 安装
