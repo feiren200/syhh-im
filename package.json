@@ -2,19 +2,30 @@
   "name": "syhh-im",
   "version": "1.0.3",
   "description": "syhh-im",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "npx babel index.js -o main.js"
   },
   "keywords": [
     "syhh",
     "im"
   ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:feiren200/syhh-im.git"
   },
   "author": "Allen",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3"
+  }
 }
